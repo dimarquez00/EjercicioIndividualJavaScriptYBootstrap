@@ -1,0 +1,76 @@
+
+.headerText{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+.linksMenu:hover{
+    text-decoration: underline;
+}
+.headerText{
+    margin-left: 6px;
+}
+.carousel {
+    z-index: 1;
+}
+
+.menu{
+    margin-left: auto;
+}
+
+.row{
+    justify-content: center;
+}
+.card-title{
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+#btnEnviar{
+    background-color: #b06a01;
+    border-color: #955a00;
+    margin-top: 30px;
+}
+#btnEnviar:hover{
+    background-color: #955a00;
+    border-color: #955a00;
+}
+
+#btnContacto{
+    background-color: #b06a01;
+    border-color: #955a00;
+    margin-top: 30px;
+}
+#btnContacto:hover{
+    background-color: #955a00;
+    border-color: #955a00;
+}
+
+.imagenContacto{
+    background-image: url("./img/contacto.jpg");
+    background-position-x: center;
+    height: 50vh;
+}
+
+.contactoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rowContacto{
+    width: 50%;
+}
+
+.footer{
+    background-color: #955a00;
+}
+
+@media screen and (max-width: 750px){
+    .rowContacto{
+    width: 90%;
+    }
+}
+@media screen and (max-width: 500px){
+    .rowContacto{
+        width: 100%;
+        }
+}
